@@ -8,6 +8,8 @@ https://openclassrooms.com/projects/imaginez-un-generateur-de-citations
 Vous venez de découvrir JavaScript ? Très bien ! Mais vous ne deviendrez développeur JavaScript, et donc développeur frontend, que si vous pratiquez à l'aide de projets concrets.
 
 Ce premier projet a été spécialement conçu pour ceux qui débutent dans la programmation JavaScript et qui n'ont pas l'habitude de développer des algorithmes. Votre objectif sera à la fois simple et amusant : vous allez construire un générateur de citations ! Les citations seront construites aléatoirement en assemblant des morceaux de phrase.
+
+
 Etape 1 : des citations aléatoires
 
 Le saviez-vous ? Il existe des générateurs de texte en ligne. Tapez "générateur de citation" et vous trouverez de nombreux sites qui génèrent aléatoirement des citations en assemblant des bouts de phrase.
@@ -25,6 +27,8 @@ Le programme peut simplement afficher le résultat dans la console JavaScript..
 Fichiers à fournir :
 
     Code JavaScript du projet
+
+
 
 Etape 2 : des citations configurables
 
