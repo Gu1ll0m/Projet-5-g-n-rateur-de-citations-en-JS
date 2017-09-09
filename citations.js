@@ -19,7 +19,7 @@ Adaptez le programme pour qu'il puisse offrir ces fonctionnalités. A vous de jo
 
 
 
-//création des constiables
+//création des constantes
 const debut = ["Y a pas à dire, ", "Mon père, il n'était pas ébouriffé, ", "C’est vrai ce qu’on dit, ",
  "Nouvelle technique : on passe pour des cons, les autres se marrent, et on frappe, ", "Sur le principe, ", "Oui, je sais, ",
  "Au bout d'un moment, ", "On se fait couper les deux bras, ", "La prochaine fois que vous faites venir un barde, ", "Oh, mais c'est pas vrai, ",
@@ -47,8 +47,8 @@ const fin = ["le repas est tout de suite plus chaleureux !", "voilà ! Allez, au
 
  //=======================================================================================//
 
-//console.log('troisconstiables is called'); // pour test
-// Création de la constiable Citation avec 3 ou 4 constiables
+//console.log('troisconstantes is called'); // pour test
+// Création de la constante Citation avec 3 ou 4 constantes
   const Citation = {
     init: function (randomDebut, randomMilieu, randomMilieu2, randomFin) {
   	  this.randomDebut = randomDebut;
@@ -56,7 +56,7 @@ const fin = ["le repas est tout de suite plus chaleureux !", "voilà ! Allez, au
   	  this.randomFin = randomFin;
       if (randomMilieu2){this.randomMilieu2 = randomMilieu2;} // si 4 constiables
   	},
-   // Renvoie la description de Citation avec 3 ou 4 constiables
+   // Renvoie la description de Citation avec 3 ou 4 constantes
    decrire: function () {
      if (this.randomMilieu2){return (this.randomDebut + " " + this.randomMilieu + " " + this.randomMilieu2 + " " + this.randomFin);} // si 4 constiables
      else return (this.randomDebut + " " + this.randomMilieu + " " + this.randomFin); // si 3 constiables
@@ -87,7 +87,7 @@ const fin = ["le repas est tout de suite plus chaleureux !", "voilà ! Allez, au
 
 
  console.log("Bienvenue dans le générateur de citation, vous pouvez générer entre 1 et 5 citation(s) !");
- let proposition; // constiable proposition => 5 choix possibles, générer de 1 à 5 citations
+ let proposition; // let proposition => 5 choix possibles, générer de 1 à 5 citations
  while (proposition !== "0") {
      console.log("1 : Générer 1 citation : ");
      console.log("2 : Générer 2 citations : ");
@@ -107,7 +107,7 @@ const fin = ["le repas est tout de suite plus chaleureux !", "voilà ! Allez, au
             console.log(citation.decrire());
           }
         }
-        else { // si l'utilisateur choisit autre chose que 3 ou 4 constiables (chiffre autre que 3 ou 4, lettre,....)
+        else { // si l'utilisateur choisit autre chose que 3 ou 4 constantes (chiffre autre que 3 ou 4, lettre,....)
           console.log("Vous avez saisi un autre chiffre que 3 ou 4, le programme ne peut générer vo(s)tre citation(s) !");
         };
     }
