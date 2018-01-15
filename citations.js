@@ -142,7 +142,7 @@ while (proposition !== "0") {
     const proposition = prompt("Choisissez une option : ");
 
     if ((proposition >= 0) && (proposition <= 5)) { // proposition saisie par l' utilisateur est compris entre 1 et 5
-        const typeCitation = prompt("Saississez 3 pour une (des) citation(s) à 3 constiables, 4 pour 4 constiables :"); // choix du nombre de constiables
+        const typeCitation = prompt("Saississez 3 pour une (des) citation(s) à 3 variables, 4 pour 4 variables :"); // choix du nombre de constiables
         if (typeCitation == 3 || typeCitation == 4) { // 2 choix possibles : générer 1 ou plusieurs citations à 3 (saisir 3) ou 4 (saisir 4) constiables
             const tableau_citation = generate_citation(proposition, typeCitation);
             for (let i = 0; i < proposition; i++) {
