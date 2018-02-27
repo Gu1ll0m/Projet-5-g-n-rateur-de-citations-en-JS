@@ -41,7 +41,7 @@ Vous souhaitez maintenant aller plus loin et proposer les options suivantes :  [
 Adaptez le programme pour qu'il puisse offrir ces fonctionnalités. 
 
 
-## _Installation : 
+## _Installation :_
 Télécharger [le dossier](https://github.com/Gu1ll0m/Projet5_generateur_citations_JS)
 
 Ouvrir le fichier __citations.html__, que vous trouverez en suivant le chemin suivant `../P5/html/citations.html`, dans votre navigateur `ctrl + o`
