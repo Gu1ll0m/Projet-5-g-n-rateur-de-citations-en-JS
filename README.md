@@ -44,7 +44,7 @@ Adaptez le programme pour qu'il puisse offrir ces fonctionnalités.
 ## _Installation :_
 Télécharger [le dossier](https://github.com/Gu1ll0m/Projet5_generateur_citations_JS)
 
-Ouvrir le fichier __citations.html__, que vous trouverez en suivant le chemin suivant `../P5/html/citations.html`, dans votre navigateur `ctrl + o`
+Ouvrir le fichier __index.html__, que vous trouverez en suivant le chemin suivant `../P5/html/index.html`, dans votre navigateur `ctrl + o`
 
 Ouvrir la console du navigateur avec `F12`
 
