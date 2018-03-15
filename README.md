@@ -5,6 +5,8 @@ Réalisation d'un générateur de citations en JS!
 
 Les citations seront construites aléatoirement en assemblant des morceaux de phrase extraits de Kaamelott.
 
+![img](screenshotP5.png)
+
 
 ## _Etape 1 : des citations aléatoires_
 
